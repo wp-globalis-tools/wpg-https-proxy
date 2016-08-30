@@ -10,5 +10,6 @@ Install the https-proxy server:
 
 Install the WordPress mu-plugin:
 
-1. Add this `wpg-http-proxy` in your `wp-content/mu-plugins` directory
-2. Add `define('WPG_HTTPS_PROXY_URL', '<your-server-url>')` to your `wp-config.php`. Do not forget to replace `<your-server-url>` with the appropriate url where the server is.
+1. Add the file `wpg-http-proxy.php` in your `wp-content/mu-plugins` directory
+2. Add `define('WPG_HTTPS_PROXY_URL', '<your-server-url>')` to your `wp-config.php`.
+3. Replace `<your-server-url>` with the url of your http-server installation
