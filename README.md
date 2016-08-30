@@ -6,7 +6,8 @@ Catch and redirect HTTPS request through a proxy, solving the SSL/TLS errors on 
 
 Install the https-proxy server:
 
-1. Copy the `server` directory on your server, and run `composer install`
+1. Copy the `server` directory on your server (you can name it as you want)
+2. Go in the directory, and run `composer install`
 
 Install the WordPress mu-plugin:
 
